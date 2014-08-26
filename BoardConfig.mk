@@ -33,6 +33,7 @@ OPT_A_LOT := true
 MAKE_STRICT_GLOBAL := true
 OPT_MEMORY := true
 ENABLE_GRAPHITE := true
+OPTIMIZE_LINKER := true
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26
