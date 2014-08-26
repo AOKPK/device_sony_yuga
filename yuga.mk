@@ -70,6 +70,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/bootrec-device:recovery/bootrec-device
 
 PRODUCT_PACKAGES += \
+    Camera2 \
+    Gallery2 \
     XperiaSettings
 
 # call dalvik heap config
