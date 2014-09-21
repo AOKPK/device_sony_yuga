@@ -26,9 +26,9 @@ TARGET_SPECIFIC_HEADER_PATH += device/sony/yuga/include
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/yuga/bluetooth
 
 TARGET_KERNEL_CONFIG := cm_fusion3_yuga_defconfig
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.10
 
 # Optimization
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.9
 OPT_A_LOT := true
 MAKE_STRICT_GLOBAL := true
 OPT_MEMORY := true
